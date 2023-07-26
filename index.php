@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT username, SUM(puntos) as puntos FROM puntos GROUP BY username";
+$sql = " SELECT username, SUM(puntos) as puntos FROM puntos GROUP BY username ORDER BY puntos DESC";
 $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
