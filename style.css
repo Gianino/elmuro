@@ -11,21 +11,6 @@ body{
     color: white;
     padding: 0 0 2rem 0;
 
-
-    /* background:
-    radial-gradient(black 15%, transparent 16%) 0 0,
-    radial-gradient(black 15%, transparent 16%) 8px 8px,
-    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-    background-color:#282828;
-    background-size:16px 16px; */
-
-    /* background:
-    linear-gradient(135deg, #222 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-    linear-gradient(225deg, #222 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-    background-color:#222;
-    background-size: 64px 128px; */
-
     background-color: #444;
     background-image: linear-gradient(335deg, #BC4A3C  23px, transparent 23px),
     linear-gradient(155deg, #BC4A3C  23px, transparent 23px),
