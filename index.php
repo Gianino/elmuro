@@ -35,7 +35,7 @@ $result = $conn->query($sql);
         ?>
         <div class="tag">
             <div class="avatar">
-                <img src="$image" alt="">
+                <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="nombre"><?php echo $row['username']; ?></div>
             <div class="puntos"><?php echo $row["puntos"]; ?></div>
