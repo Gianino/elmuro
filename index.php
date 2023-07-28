@@ -31,7 +31,7 @@ $result = $conn->query($sql);
         <?php
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-                $image = ($row['avatar_url'] == '')?'https://placehold.co/50':$row['avatar_url'];
+                $image = ($row['avatar_url'] == '')?'https://placehold.co/50':base64_decode($row['avatar_url']);
         ?>
         <div class="tag">
             <div class="avatar">
