@@ -7,7 +7,7 @@
 // });
 
 window.addEventListener('load', function(event) {
-    var intervalID = setInterval(recargar, 1000,);
+    var intervalID = setInterval(recargar, 3000,);
 
     function recargar(){
         location.reload()    }
