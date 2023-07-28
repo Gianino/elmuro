@@ -6,9 +6,9 @@
 //     }
 // });
 
-// window.addEventListener('load', function(event) {
-//     var intervalID = setInterval(recargar, 1000,);
+window.addEventListener('load', function(event) {
+    var intervalID = setInterval(recargar, 1000,);
 
-//     function recargar(){
-//         location.reload()    }
-// });
+    function recargar(){
+        location.reload()    }
+});
