@@ -35,11 +35,21 @@ body{
     gap: 1rem;
     padding: 0 1rem;
 }
-
+.elmuro .tag .nombre{
+    text-transform: capitalize;
+}
 .elmuro .tag:first-child .nombre{
     font-weight: bold;
 }
-
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
 .tag{
     display: flex;
     gap: 0 10px;
@@ -50,6 +60,7 @@ body{
     background-color: #eeeeeeff;
     cursor: default;
     color: #111;
+    font-size: 24px;
 }
 
 .puntos{
@@ -60,6 +71,7 @@ body{
     text-align: center;
     background-color: #fff;
     color: #000;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){

@@ -31,8 +31,12 @@ $result = $conn->query($sql);
         <?php
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
+                $image = ($row['avatar_url'] == '')?'https://placehold.co/50':$row['avatar_url'];
         ?>
         <div class="tag">
+            <div class="avatar">
+                <img src="$image" alt="">
+            </div>
             <div class="nombre"><?php echo $row['username']; ?></div>
             <div class="puntos"><?php echo $row["puntos"]; ?></div>
         </div>
