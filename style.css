@@ -27,6 +27,21 @@ body{
     padding: 2rem 0;
     text-shadow: 2px 2px 2px #666;
     cursor: default;
+    position: relative;
+}
+
+.titulo::after{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    content: "Tu nombre para siempre en www.elmuro.live";
+    left: 50%;
+    margin-left: -150px;
+    bottom: 30px;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: 400;
+    text-align: center;
 }
 
 .elmuro{
@@ -37,6 +52,9 @@ body{
 }
 .elmuro .tag .nombre{
     text-transform: capitalize;
+    max-width: 134px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .elmuro .tag:first-child .nombre{
     font-weight: bold;
@@ -55,7 +73,7 @@ body{
     gap: 0 10px;
     border-radius: 20px;
     /* border: 2px solid #111; */
-    padding: 10px 20px;
+    padding: 5px 10px;
     align-items: center;
     background-color: #eeeeeeff;
     cursor: default;
@@ -72,6 +90,12 @@ body{
     background-color: #fff;
     color: #000;
     font-size: 18px;
+}
+
+#firma{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 600px){

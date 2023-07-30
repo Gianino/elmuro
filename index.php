@@ -26,7 +26,7 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="titulo">El Muro de TikTok</h1>
+    <h1 class="titulo" id="titulo">El Muro de TikTok</h1>
     <div class="elmuro">
         <?php
         if ($result->num_rows > 0) {
@@ -49,6 +49,7 @@ $result = $conn->query($sql);
         ?>
 
     </div>
+    <footer  id="firma">Deja tu firma en el Muro. Por siempre</footer>
     <script src="main.js"></script>
 </body>
 </html>
