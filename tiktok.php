@@ -50,5 +50,6 @@ $result = $conn->query($sql);
 
     </div>
     <footer  id="firma">Deja tu firma en el Muro. Por siempre</footer>
+    <script src="main.js"></script>
 </body>
 </html>
