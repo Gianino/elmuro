@@ -24,13 +24,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 .elmuro .tag .nombre{
     text-transform: capitalize;
-    max-width: 134px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 2rem;
 }
 .elmuro .tag:first-child .nombre{
     font-weight: bold;
@@ -40,8 +38,8 @@ body{
     align-items: center;
 }
 .avatar img{
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     border-radius: 50px;
 }
 .tag{
@@ -55,32 +53,18 @@ body{
     cursor: default;
     color: #111;
     font-size: 24px;
-    min-width: 50%;
+    min-width: 49.25%;
 }
 
 .puntos{
     border-radius: 10px;
     border: 2px solid #fff;
-    padding: 1px 5px;
+    padding: 5px 10px;
     min-width: 30px;
     text-align: center;
     background-color: #fff;
     color: #000;
-    font-size: 18px;
-}
-
-#firma{
-    text-align: center;
-    margin: 2rem;
     font-size: 2rem;
-    position: absolute;
-    background-color: black;
-    color: #eee;
-    padding: 1rem 2rem;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    margin: 0;
 }
 
 @media only screen and (max-width: 600px){

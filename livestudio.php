@@ -46,9 +46,7 @@ $result = $conn->query($sql);
         }
         $conn->close();
         ?>
-
     </div>
-    <footer  id="firma">Deja tu firma en el Muro. Por siempre</footer>
     <!-- <script src="main.js"></script> -->
 </body>
 </html>
