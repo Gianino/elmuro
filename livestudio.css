@@ -1,0 +1,92 @@
+:root{
+    --amarillo: #ffd700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Voltaire', sans-serif;
+    color: white;
+    padding: 0 0 2rem 0;
+
+    background-color: #444;
+    background-image: linear-gradient(335deg, #BC4A3C  23px, transparent 23px),
+    linear-gradient(155deg, #BC4A3C  23px, transparent 23px),
+    linear-gradient(335deg, #BC4A3C  23px, transparent 23px),
+    linear-gradient(155deg, #BC4A3C  23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+
+.elmuro{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+.elmuro .tag .nombre{
+    text-transform: capitalize;
+    max-width: 134px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.elmuro .tag:first-child .nombre{
+    font-weight: bold;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.tag{
+    display: flex;
+    gap: 0 10px;
+    border-radius: 20px;
+    /* border: 2px solid #111; */
+    padding: 5px 10px;
+    align-items: center;
+    background-color: #eeeeeeff;
+    cursor: default;
+    color: #111;
+    font-size: 24px;
+    min-width: 50%;
+}
+
+.puntos{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 1px 5px;
+    min-width: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+}
+
+#firma{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    position: absolute;
+    background-color: black;
+    color: #eee;
+    padding: 1rem 2rem;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .tag{
+        padding: 10px 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
