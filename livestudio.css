@@ -29,6 +29,9 @@ body{
 .elmuro .tag .nombre{
     text-transform: capitalize;
     font-size: 2rem;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .elmuro .tag:first-child .nombre{
     font-weight: bold;
@@ -53,7 +56,7 @@ body{
     cursor: default;
     color: #111;
     font-size: 24px;
-    min-width: 49.25%;
+    min-width: 48.5%;
 }
 
 .puntos{
