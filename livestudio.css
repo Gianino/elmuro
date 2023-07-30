@@ -25,13 +25,15 @@ body{
     flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem 1rem;
+    justify-content: space-around;
 }
 .elmuro .tag .nombre{
     text-transform: capitalize;
     font-size: 2rem;
-    width: 200px;
+    width: 175px;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
 }
 .elmuro .tag:first-child .nombre{
     font-weight: bold;
