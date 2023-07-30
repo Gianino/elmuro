@@ -112,7 +112,7 @@ body{
         width: 100%;
         justify-content: space-between;
     }
-    .puntos{
-        
+    .titulo{
+        font-size: 3rem;
     }
 }
